@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutOutside" >
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/titlebar_rbtn" />
+
+    <LinearLayout style="@style/useDesc" >
+
+        <TextView
+            android:id="@+id/txt_planTips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/report_desc" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_tasks"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@drawable/line_shadow"
+        android:dividerHeight="2dip" >
+    </ListView>
+
+</LinearLayout>

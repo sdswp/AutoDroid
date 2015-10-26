@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/FormHor" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="SSID"
+            android:textColor="#fff" />
+
+        <EditText
+            android:id="@+id/etSSID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout style="@style/FormHor" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="#fff" />
+
+        <EditText
+            android:id="@+id/etPSK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/FormHor" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="keymgmt"
+            android:textColor="#fff" />
+
+        <EditText
+            android:id="@+id/etKeymgmt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

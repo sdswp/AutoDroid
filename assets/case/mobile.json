@@ -1,0 +1,21 @@
+[{
+	"name": "MobileNetworkSwitch",
+	"displayName": "移动网络开关",
+	"count":"10",
+	"value": {
+		"edt_mobilenetswitchTimes": "10",
+		"edt_mobilenetstatusTime": "10",
+		"btn_mobilenetstart": "true",
+		"btn_mobilenetcancel": "false"
+	}
+},{
+	"name": "MobileNetworkUsing",
+	"displayName": "移动网络Loading",
+	"count":"10",
+	"value": {
+		"etxt_mobileusingOutTime": "10",
+		"etxt_mobileusingCount": "10",
+		"btn_mobileusingStart": "true",
+		"btn_mobileusingCancel": "false"
+	}
+}]

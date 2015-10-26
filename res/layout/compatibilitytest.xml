@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutOutside" >
+
+    <!--  <include android:id="@+id/top_title" />-->
+
+    <LinearLayout style="@style/EditForm3" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="点击开始，顺序启动安装在手机上的第三方应用" />
+      
+    </LinearLayout>
+
+    <LinearLayout style="@style/BtnLayout" >
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:text="开始" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:text="取消" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutOutside" >
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/titlebar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120dip"
+        android:layout_marginBottom="10dip"
+        android:gravity="center_vertical"
+        android:background="#b4b4be"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="10dip"
+            android:src="@drawable/banner_reference" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="left|center_vertical"
+            android:text="@string/reference_desc"
+            android:lineSpacingExtra="3dip"
+            android:textColor="#232d50"
+            android:textSize="@dimen/descSize" />
+        
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_funs"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@drawable/line_shadow"
+        android:background="@color/gray_light"
+        android:dividerHeight="2dip" >
+    </ListView>
+
+</LinearLayout>

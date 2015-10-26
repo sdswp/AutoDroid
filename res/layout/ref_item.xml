@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+    <RelativeLayout
+        android:id="@+id/btn_connectAP"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+         >
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="36dip"
+            android:layout_height="36dip"
+            android:gravity="center_vertical"
+            android:layout_marginRight="10dip"
+             />
+        
+        <TextView
+            android:id="@+id/txt_func"
+            android:layout_width="170dip"
+            android:layout_height="36dip"
+            android:textColor="#333333"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/descSize"
+            android:layout_toRightOf="@+id/img_icon"
+             />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="36dip"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/mm_submenu" />
+    </RelativeLayout>
+
+</LinearLayout>

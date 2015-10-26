@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutOutside" >
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/titlebar" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"
+        android:text="（建议测试时插充电器）"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:paddingTop="10dip"
+            android:text="测试时间："
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_downloadNum"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:hint="12 小时"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:paddingTop="10dip"
+            android:text="电量 &lt;？时停止："
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_downloadNum"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:hint="20%"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:paddingTop="10dip"
+            android:text="来电话时："
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:paddingTop="10dip"
+            android:text="结果自动上传："
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="20dip" >
+
+        <Button
+            android:id="@+id/btn_start"
+            style="@style/btnConfirmStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:gravity="center_vertical"
+            android:text="开始测试"
+            android:textSize="@dimen/descSize" />
+
+        <Button
+            android:id="@+id/btn_history"
+            style="@style/btnConfirmStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="本机历史数据"
+            android:textSize="@dimen/descSize" />
+    </LinearLayout>
+
+</LinearLayout>

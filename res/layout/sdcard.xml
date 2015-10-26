@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutOutside" >
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/titlebar_rbtn" />
+
+    <LinearLayout style="@style/FormVert" >
+
+        <TextView
+            android:id="@+id/tvpath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/descSize" />
+
+        <Button
+            android:id="@+id/btnParent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回上一级..." />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/files"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/line_shadow"
+        android:dividerHeight="2dip" />
+
+</LinearLayout>

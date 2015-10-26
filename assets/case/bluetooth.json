@@ -1,0 +1,17 @@
+[{
+	"name": "BTSwitch",
+	"displayName": "蓝牙开关",
+	"count":"10",
+	"value": {
+		"edt_btswitchTimes": "10",
+		"edt_btstatusTime": "10",
+		"btn_btstart": "true",
+		"btn_btcancel": "false"
+	}
+}, {
+	"name": "BTPaired",
+	"displayName": "蓝牙匹配",
+	"count":"10",
+	"value": {
+	}
+}]

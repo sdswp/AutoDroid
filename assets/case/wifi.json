@@ -1,0 +1,40 @@
+[{
+	"name": "WifiSwitch",
+	"displayName": "wifi开关",
+	"count":"10",
+	"value": {
+		"testCount": "10",
+		"spaceTime": "10"
+	}
+}, {
+	"name": "WifiAPSwitch",
+	"displayName": "wifi切换测试",
+	"count":"10",
+	"value": {
+		"apResource": "aplist.json",
+		"keepTime": "13",
+		"outTime": "25",
+		"switchCount": "10"
+	}
+}, {
+	"name": "WifiAPQuantity",
+	"displayName": "AP数量",
+	"count":"10",
+	"value": {
+		"gatherNum": "10",
+		"gatherOpenTime": "10",
+		"scanTime": "15"
+	}
+}, {
+	"name": "WifiSignalStrength",
+	"displayName": "信号强度",
+	"count":"10",
+	"value": {
+	}
+}, {
+	"name": "WifiDownloadTest",
+	"displayName": "下载测试",
+	"count":"10",
+	"value": {
+	}
+}]

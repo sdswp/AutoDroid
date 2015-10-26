@@ -1,0 +1,45 @@
+[{
+	"taskName": "稳定性测试",
+	"taskType": 0,
+	"taskCount": 1,
+	"testCases": [{
+		"testCaseId": "887abc9a-1aaf-4114-9bbd-f8a32182eb89",
+		"testCaseCount": 10000
+	}, {
+		"testCaseId": "9032ff25-e026-4c63-85c1-eb99e5206657",
+		"testCaseCount": 10000
+	}, {
+		"testCaseId": "b2072538-e5cb-4817-9f6b-22eaedf13c28",
+		"testCaseCount": 10000
+	}, {
+		"testCaseId": "546a7a05-855d-4456-b110-93b5aef31c7f",
+		"testCaseCount": 10000
+	}, {
+		"testCaseId": "992115a7-ec27-400d-925c-ae9501f7ae32",
+		"testCaseCount": 10000
+	}, {
+		"testCaseId": "1f3304d0-762e-4b83-9f37-5908ff5afd6f",
+		"testCaseCount": 10000
+	}, { 
+		"testCaseId": "56f587e1-29d2-4b85-8506-b02206ff02e5",
+		"testCaseCount": 10000
+	}, {
+		"testCaseId": "59f8646d-1214-4c8b-a18f-02e520dbb522",
+		"testCaseCount": 10000
+	}, {
+		"testCaseId": "2ce8ada6-bb66-4254-b60d-bce78e2aebb9",
+		"testCaseCount": 10000
+	}, {
+		"testCaseId": "5da169c9-1872-4b93-8608-b02b136e5c8a",
+		"testCaseCount": 10000
+	}, {
+		"testCaseId": "c7d049d4-60ef-4020-a1ec-03c5ab1c4b75",
+		"testCaseCount": 10000
+	}, {
+		"testCaseId": "072c620f-be0f-485c-9464-4ceaf44ecb43",
+		"testCaseCount": 10000
+	}, {
+		"testCaseId": "cd0a7881-315f-426f-bb88-f99969bc7542",
+		"testCaseCount": 10000
+	}]
+}]

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutOutside" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#333333" >
+
+        <TableRow>
+
+            <TextView
+                style="@style/td"
+                android:text="column1" />
+
+            <TextView
+                style="@style/td"
+                android:text="column2" />
+
+            <TextView
+                style="@style/td"
+                android:text="column3" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/td"
+                android:text="column11"
+                android:visibility="invisible" />
+
+            <TextView
+                style="@style/td"
+                android:gravity="right"
+                android:text="左边的invisible" />
+
+            <TextView
+                style="@style/td"
+                android:text="column3" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/td"
+                android:layout_span="3"
+                android:text="合并3个单元格"
+                android:textColor="#f00" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

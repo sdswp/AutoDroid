@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/FormHor" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="计划名称："
+            android:textColor="#fff"
+            android:textSize="@dimen/descSize" />
+
+        <EditText
+            android:id="@+id/planName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/FormHor" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="执行次数："
+            android:textColor="#fff"
+            android:textSize="@dimen/descSize" />
+
+        <EditText
+            android:id="@+id/planNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="1" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/FormHor" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="执行方式："
+            android:textColor="#fff"
+            android:textSize="@dimen/descSize" />
+
+        <Spinner
+            android:id="@+id/spinner_type"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

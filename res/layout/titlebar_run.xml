@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="52.5dip"
+    android:background="#434d82"
+    android:paddingTop="0.5dip" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#cd2350" >
+
+        <LinearLayout style="@style/TitleBarRun" >
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:ellipsize="end"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dip"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/txt_state"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="5dip"
+                android:textColor="#eb1e55"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/title_rbtn1"
+            style="@style/titleBtnAction"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="0dip"
+            android:paddingBottom="0dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="0dip" />
+
+        <Button
+            android:id="@+id/title_rbtn2"
+            style="@style/titleBtnAction"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="0dip"
+            android:paddingBottom="0dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="0dip"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

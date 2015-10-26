@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="52.5dip"
+    android:background="#434d82"
+    android:paddingTop="0.5dip" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#cd2350" >
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/TitleBar"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/title_rbtn1"
+            style="@style/titleBtnAction"
+            android:layout_gravity="right|center_vertical"
+            android:layout_margin="0dip"
+            android:paddingBottom="0dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="0dip" />
+
+        <Button
+            android:id="@+id/title_rbtn2"
+            style="@style/titleBtnAction"
+            android:layout_gravity="right|center_vertical"
+            android:layout_margin="0dip"
+            android:paddingBottom="0dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="0dip"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

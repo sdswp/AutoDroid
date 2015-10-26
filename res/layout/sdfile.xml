@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="5dip"
+    android:paddingTop="5dip" >
+
+    <CheckBox
+        android:id="@+id/cbFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/wifiAPSetTxt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cbFile"
+        android:layout_alignBottom="@+id/cbFile"
+        android:layout_centerHorizontal="true"
+        android:text="filename"
+        android:textSize="16sp" />
+
+</RelativeLayout>

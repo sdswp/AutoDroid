@@ -1,0 +1,17 @@
+[{
+	"ssid": "SNDA-OPEN",
+	"psk": "",
+	"keymgmt": "WPA-PSK"
+}, {
+	"ssid": "wireless_test_group",
+	"psk": "tju2013159",
+	"keymgmt": "WPA-PSK"
+}, {
+	"ssid": "SNDA",
+	"psk": "123159753",
+	"keymgmt": "WPA-PSK"
+}, {
+	"ssid": "geakphone",
+	"psk": "ffff",
+	"keymgmt": "WPA-PSK"
+}]

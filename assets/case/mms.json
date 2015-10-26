@@ -1,0 +1,22 @@
+[{
+	"name": "SmsSend",
+	"displayName": "短信发送",
+	"count":"10",
+	"value": {            
+		"edt_sendtimes": "10",
+		"edt_smsreceiver": "",
+		"edt_smsinternaltime": "10",
+		"edt_smscontent": "RockandRoll"
+		"btn_sendstart": "true"
+		"btn_snedend": "false"
+	}
+},{
+	"name": "SmsReceive",
+	"displayName": "短信接收",
+	"count":"10",
+	"value": {
+		"edt_sendnumber": "10",
+		"btn_startReceive": "true",
+		"btn_cancelReceive": "false"
+	}
+}]

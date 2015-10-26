@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutOutside" >
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/titlebar" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:background="#333333"
+                android:padding="0.5dip" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true" >
+
+                    <TextView
+                        style="@style/th"
+                        android:layout_weight="1"
+                        android:text="搜星速度" />
+
+                    <TextView
+                        style="@style/th"
+                        android:layout_weight="1"
+                        android:text="测试项目" />
+
+                    <TextView
+                        style="@style/th"
+                        android:layout_weight="1"
+                        android:text="三星S4" />
+
+                    <TextView
+                        style="@style/th"
+                        android:layout_weight="1"
+                        android:text="安卓手机最好水平" />
+
+                    <TextView
+                        style="@style/th"
+                        android:layout_weight="1"
+                        android:text="安卓手机平均水平" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true" >
+
+                    <TextView
+                        style="@style/tdRowspanFirst"
+                        android:layout_weight="1"
+                        android:text="" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="GPS冷启动" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="60.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="50.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="69.1s" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true" >
+
+                    <TextView
+                        style="@style/tdRowspan"
+                        android:layout_weight="1"
+                        android:text="晴天" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="GPS冷启动" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="60.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="50.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="69.1s" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true" >
+
+                    <TextView
+                        style="@style/tdRowspanLast"
+                        android:layout_weight="1"
+                        android:text="" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="GPS冷启动" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="60.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="50.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="69.1s" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true" >
+
+                    <TextView
+                        style="@style/tdRowspanFirst"
+                        android:layout_weight="1"
+                        android:text="" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="GPS冷启动" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="60.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="50.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="69.1s" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true" >
+
+                    <TextView
+                        style="@style/tdRowspan"
+                        android:layout_weight="1"
+                        android:text="阴天" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="GPS冷启动" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="60.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="50.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="69.1s" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true" >
+
+                    <TextView
+                        style="@style/tdRowspanLast"
+                        android:layout_weight="1"
+                        android:text="" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="GPS冷启动" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="60.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="50.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="69.1s" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true" >
+
+                    <TextView
+                        style="@style/tdRowspanFirst"
+                        android:layout_weight="1"
+                        android:text="" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="GPS冷启动" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="60.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="50.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="69.1s" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true" >
+
+                    <TextView
+                        style="@style/tdRowspan"
+                        android:layout_weight="1"
+                        android:text="雨天" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="GPS冷启动" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="60.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="50.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="69.1s" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true" >
+
+                    <TextView
+                        style="@style/tdRowspanLast"
+                        android:layout_weight="1"
+                        android:text="" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="GPS冷启动" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="60.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="50.2s" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="1"
+                        android:text="69.1s" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:background="#333333"
+                android:padding="0.5dip" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true" >
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="2"
+                        android:text="综合水平" />
+
+                    <TextView
+                        style="@style/td"
+                        android:layout_weight="3"
+                        android:text="优于85%同类设备" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ListView
+        android:id="@+id/lv_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="#333333"
+        android:padding="0.5dip" />
+
+    <ListView
+        android:id="@+id/lv_integrate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="#333333"
+        android:padding="0.5dip" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:key="@string/autoStart_key"
+        android:summary="启动"
+        android:title="是否开机启动服务" />
+
+    <CheckBoxPreference
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:key="@string/wakeLock_key"
+        android:summary="开启"
+        android:title="是否进入永不休眠状态" />
+
+    <CheckBoxPreference
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:key="@string/keepRunning_key"
+        android:summary="开启"
+        android:title="是否重启后仍然继续运行测试任务" />
+
+</PreferenceScreen>

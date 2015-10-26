@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutOutside" >
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/titlebar_rbtn" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/lv_sublist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@drawable/line_shadow"
+            android:dividerHeight="2dip" >
+        </ListView>
+
+        <Button
+            android:id="@+id/btn_start"
+            style="@style/btnConfirmStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:layout_alignParentBottom="true"
+            android:text="开始"
+            android:textSize="@dimen/descSize" />
+    </RelativeLayout>
+
+</LinearLayout>

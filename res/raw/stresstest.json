@@ -1,0 +1,18 @@
+[{
+	"taskName": "压力测试",
+	"taskType": 1,
+	"taskCount": 1,
+	"testCases": [{
+		"testCaseId": "1f3304d0-762e-4b83-9f37-5908ff5afd6f",
+		"testCaseCount": 10000
+	}, {
+		"testCaseId": "cd7681b4-2261-41c8-a02b-23ba5fa2c96d",
+		"testCaseCount": 10000
+	}, {
+		"testCaseId": "b2072538-e5cb-4817-9f6b-22eaedf13c28",
+		"testCaseCount": 10000
+	}, {
+		"testCaseId": "cd0a7881-315f-426f-bb88-f99969bc7542",
+		"testCaseCount": 10000
+	}]
+}]

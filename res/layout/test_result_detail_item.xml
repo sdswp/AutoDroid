@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutOutside" >
+
+    <TextView
+        android:id="@+id/txt_resultTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#999999"
+        android:textSize="@dimen/descSize" />
+
+    <TableLayout
+        android:id="@+id/table_data"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="#646487"
+        android:padding="0.5dip" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true" >
+
+            <TextView
+                style="@style/th"
+                android:layout_weight="1"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/txt_resultName"
+                style="@style/th"
+                android:layout_weight="1"
+                android:text="三星S4" />
+
+            <TextView
+                android:id="@+id/txt_result"
+                style="@style/th"
+                android:layout_weight="1"
+                android:text="小米2S" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutOutside" >
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/titlebar" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:lineSpacingExtra="5dip"
+        android:padding="20dip"
+        android:text="触屏测试_手势识别\n当前测试项目：双击\n请双击如下区域"
+        android:textColor="#333333"
+        android:textSize="@dimen/descSize" />
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_x="25dp"
+            android:layout_y="25dp"
+            android:background="#b4b4b9"
+             />
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="80dp"
+            android:layout_x="124dp"
+            android:layout_y="20dp"
+            android:background="#b4b4b9" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_x="205dp"
+            android:layout_y="30dp"
+            android:background="#b4b4b9" />
+
+        <Button
+            android:layout_width="93dp"
+            android:layout_height="80dp"
+            android:layout_x="110dp"
+            android:layout_y="109dp"
+            android:background="#b4b4b9" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_x="40dp"
+            android:layout_y="110dp"
+            android:background="#b4b4b9" />
+
+    </AbsoluteLayout>
+
+
+</LinearLayout>

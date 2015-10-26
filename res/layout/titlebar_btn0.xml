@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/TitleBar">
+    
+    <TextView
+        android:id="@+id/txt_title_btn0"
+         style="@style/layoutWFH40"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textStyle="normal"
+        android:text="TouchStone"
+        />
+    
+
+    
+</FrameLayout>

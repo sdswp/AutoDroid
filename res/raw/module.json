@@ -1,0 +1,56 @@
+[{
+	"id": "c52f6971-a99f-4a93-8ca8-20370c6810f8",
+	"name": "media",
+	"displayName": "多媒体",
+	"desc": "多媒体模块测试用例集合"
+}, {
+	"id": "1061c3c1-501a-423b-adb5-3995bf86d3fe",
+	"name": "battery",
+	"displayName": "电池",
+	"desc": "battery模块测试用例集合"
+}, {
+	"id": "9c8115e6-abdb-4473-bc16-3f3a26a8ab28",
+	"name": "storage",
+	"displayName": "存储",
+	"desc": "storage模块测试用例集合"
+}, {
+	"id": "aa1be6bd-5022-493a-9e3a-61e4171be818",
+	"name": "framework",
+	"displayName": "Framework",
+	"desc": "Framework模块测试用例集合"
+}, {
+	"id": "2cce8965-c047-4c97-a517-649ebc8abd2c",
+	"name": "mobile",
+	"displayName": "移动网络",
+	"desc": "mobile模块测试用例集合"
+}, {
+	"id": "4e0584a1-26f5-4505-aba9-6a4e06f28122",
+	"name": "camera",
+	"displayName": "相机",
+	"desc": "camera模块测试用例集合"
+}, {
+	"id": "aa73a222-ff91-49bf-98cf-b44c01cdf506",
+	"name": "gps",
+	"displayName": "GPS",
+	"desc": "gps模块测试用例集合"
+}, {
+	"id": "944260c5-8e04-4312-b479-c1b0c8b6698a",
+	"name": "wifi",
+	"displayName": "WIFI",
+	"desc": "wifi模块测试用例集合"
+}, {
+	"id": "35a6b2fc-a05a-4630-8c79-d17c498fd018",
+	"name": "telphone",
+	"displayName": "电话",
+	"desc": "telphone模块测试用例集合"
+}, {
+	"id": "2efcc63a-6b83-453f-8715-d4718d7ba380",
+	"name": "bluetooth",
+	"displayName": "蓝牙",
+	"desc": "bluetooth模块测试用例集合"
+}, {
+	"id": "a273ff64-b63c-4a71-886c-ee9391934664",
+	"name": "mms",
+	"displayName": "彩信",
+	"desc": "mms模块测试用例集合"
+}]

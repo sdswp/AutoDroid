@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListItems>
+    <item name="pkmode" value="PK模式" icon="icon_buy" />
+    <item name="placemode" value="排位模式" icon="icon_place" />
+    <item name="searchmode" value="查询模式" icon="icon_search" />
+</ListItems>

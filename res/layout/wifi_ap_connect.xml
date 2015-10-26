@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutOutside" >
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/titlebar" />
+
+    <LinearLayout style="@style/FormHor" >
+
+        <TextView
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:text="载入的历史ap：" />
+
+        <TextView
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:text="载入ap：8，与扫描结果匹配：3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:text="刷新" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/FormHor" >
+
+        <TextView
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:text="测试周期：" />
+
+        <EditText
+            android:id="@+id/wifi_gather_Num"
+            android:layout_width="150dip"
+            android:layout_height="45dip"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/FormHor" >
+
+        <TextView
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:text="连接超时时间：" />
+
+        <EditText
+            android:id="@+id/wifi_open_time"
+            android:layout_width="150dip"
+            android:layout_height="45dip"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:text="所有导入的ap连接完成算一次测试周期，连接失败一次算一次测试失败" />
+
+    <LinearLayout style="@style/FormHor" >
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:text="开始" />
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:text="取消" />
+    </LinearLayout>
+</LinearLayout>

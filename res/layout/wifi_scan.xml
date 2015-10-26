@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WifiScan" >
+<!-- android:layout_height="wrap_content"-->
+
+	<ListView android:layout_width="wrap_content" 
+          android:id="@+id/ListView01"
+          android:layout_height="wrap_content"  
+          android:layout_marginTop="70dp" android:divider="#eeeeee" android:dividerHeight="1dip"
+        />
+
+	<!--ListView
+	    android:id="@+id/wifiList"
+	    android:layout_width="match_parent"
+	    android:layout_height="250dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true" >
+	</ListView-->
+
+	<Button
+	    android:id="@+id/scan"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginTop="10dp"
+	    android:text="scan"
+	    android:width="60dp" />
+
+	<Button
+	    android:id="@+id/stop"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/start"
+	    android:layout_alignBottom="@+id/start"
+	    android:layout_toRightOf="@+id/start"
+	    android:text="stop"
+	    android:width="60dp" />
+
+		<Button
+		    android:id="@+id/addlist"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBaseline="@+id/stop"
+		    android:layout_alignBottom="@+id/stop"
+		    android:layout_toRightOf="@+id/stop"
+		    android:text="add"
+		    android:width="60dp" />
+
+		<Button
+		    android:id="@+id/start"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBaseline="@+id/scan"
+		    android:layout_alignBottom="@+id/scan"
+		    android:layout_toRightOf="@+id/scan"
+		    android:text="start"
+		    android:width="60dp" />
+
+		<TextView
+		    android:id="@+id/txt_phoneIMEI"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignTop="@+id/addlist"
+		    android:layout_toRightOf="@+id/addlist"
+		    android:text="TextView" />
+
+</RelativeLayout>

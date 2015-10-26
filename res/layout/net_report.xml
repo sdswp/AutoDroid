@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutOutside" >
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/titlebar_rbtn2" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dip"
+        android:background="@color/gray_light2" >
+
+        <CheckBox
+            android:id="@+id/cb_taskItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false" />
+
+        <TextView
+            android:id="@+id/txt_displayname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/cb_taskItem"
+            android:text="计划名称" />
+
+        <TextView
+            android:id="@+id/txt_taskCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="更新时间" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_planlist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@drawable/line_shadow"
+        android:dividerHeight="2dip" />
+
+</LinearLayout>

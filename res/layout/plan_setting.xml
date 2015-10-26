@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutOutside"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip" >
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/titlebar_rbtn" />
+
+    <LinearLayout style="@style/FormHor" >
+
+        <TextView
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="计划名称：" />
+
+        <EditText
+            android:id="@+id/planName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/FormHor" >
+
+        <TextView
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="计划执行次数：" />
+
+        <EditText
+            android:id="@+id/et_planNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="2"
+            android:enabled="false"
+            android:hint="1"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/FormHor" >
+
+        <TextView
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="执行方式：" />
+
+ 		<Spinner android:id="@+id/spinner_type"   
+           android:layout_width="fill_parent"  
+           android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dip"
+        android:paddingLeft="20dip"
+        android:paddingTop="5dip"
+        android:layout_marginTop="10dip"
+        android:background="#cccccc"
+        android:text="任务执行次数" />
+
+    <ListView
+        android:id="@+id/lv_timeRatio"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:divider="@drawable/line_shadow"
+        android:dividerHeight="2dip" />
+
+</LinearLayout>

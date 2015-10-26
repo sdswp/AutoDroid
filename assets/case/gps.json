@@ -1,0 +1,15 @@
+[{"name": "GPSSwitch",
+	"displayName": "GPS开关",
+	"count":"10",
+	"value": {
+		"edt_gpsswitchTimes": "10",
+		"edt_gpsstatusTime": "10",
+		"btn_gpsstart": "true",
+		"btn_gpscancel": "false"
+	}
+},{"name": "GPSSatellite",
+	"displayName": "GPS搜星",
+	"count":"10",
+	"value": {
+	}
+}]

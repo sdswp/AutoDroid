@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutOutside" >
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/titlebar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120dip"
+        android:layout_marginBottom="10dip"
+         >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="长时间稳定性测试进行中"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/descSize" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="5dip"
+        android:textColor="#333333"
+        android:padding="10dip"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="20dip" >
+
+        <Button
+            style="@style/btnConfirmStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:gravity="center_vertical"
+            android:text="暂停"
+            android:textSize="@dimen/descSize" />
+
+        <Button 
+            android:id="@+id/btn_stop"
+            style="@style/btnConfirmStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="终止并查看结果"
+            android:textSize="@dimen/descSize" />
+    </LinearLayout>
+
+</LinearLayout>

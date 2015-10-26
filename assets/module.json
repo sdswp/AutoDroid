@@ -1,0 +1,122 @@
+{
+	"gps": [{
+		"name": "GPSSwitch",
+		"displayName": "GPS开关",
+		"value": {
+			"edt_gpsswitchTimes": "10",
+			"edt_gpsstatusTime": "10",
+			"btn_gpsstart": "true",
+			"btn_gpscancel": "false"
+		}
+	}, {
+		"name": "GPSSatellite",
+		"displayName": "GPS搜星",
+		"value": {
+			"edt_gpsswitchTimes": "10",
+			"edt_gpsstatusTime": "10",
+			"btn_gpsstart": "true",
+			"btn_gpscancel": "false"
+		}
+	}],
+	"bluetooth": [{
+		"name": "BTSwitch",
+		"displayName": "蓝牙开关",
+		"value": {
+			"edt_gpsswitchTimes": "10",
+			"edt_gpsstatusTime": "10",
+			"btn_gpsstart": "true",
+			"btn_gpscancel": "false"
+		}
+	}, {
+		"name": "BTPaired",
+		"displayName": "蓝牙匹配",
+		"value": {
+			"edt_gpsswitchTimes": "10",
+			"edt_gpsstatusTime": "10",
+			"btn_gpsstart": "true",
+			"btn_gpscancel": "false"
+		}
+	}],
+	"wifi": [{
+		"name": "WifiAPSwitch",
+		"displayName": "wifi切换测试",
+		"value": {
+			"edt_gpsswitchTimes": "10",
+			"edt_gpsstatusTime": "10",
+			"btn_gpsstart": "true",
+			"btn_gpscancel": "false"
+		}
+	}, {
+		"name": "WifiAPQuantity",
+		"displayName": "AP数量",
+		"value": {
+			"edt_gpsswitchTimes": "10",
+			"edt_gpsstatusTime": "10",
+			"btn_gpsstart": "true",
+			"btn_gpscancel": "false"
+		}
+	}, {
+		"name": "WifiSignalStrength",
+		"displayName": "信号强度",
+		"value": {
+			"edt_gpsswitchTimes": "10",
+			"edt_gpsstatusTime": "10",
+			"btn_gpsstart": "true",
+			"btn_gpscancel": "false"
+		}
+	}, {
+		"name": "WifiDownloadTest",
+		"displayName": "下载测试",
+		"value": {
+			"edt_gpsswitchTimes": "10",
+			"edt_gpsstatusTime": "10",
+			"btn_gpsstart": "true",
+			"btn_gpscancel": "false"
+		}
+	}],
+	"telphone": [{
+		"name": "AutoCall",
+		"displayName": "拨打电话",
+		"value": {}
+	}],
+	"mms": [{
+		"name": "SMSSendTask",
+		"displayName": "短信发送",
+		"value": {}
+	}],
+	"mobile": [{
+		"name": "SMSSendTask",
+		"displayName": "短信发送",
+		"value": {}
+	}],
+	"audio": [{
+		"name": "BTSwitch",
+		"displayName": "蓝牙开关",
+		"value": {}
+	}],
+	"camera": [{
+		"name": "BTSwitch",
+		"displayName": "蓝牙开关",
+		"value": {}
+	}],
+	"storage": [{
+		"name": "BTSwitch",
+		"displayName": "蓝牙开关",
+		"value": {}
+	}],
+	"nfc": [{
+		"name": "BTSwitch",
+		"displayName": "蓝牙开关",
+		"value": {}
+	}],
+	"touchscreen": [{
+		"name": "BTSwitch",
+		"displayName": "蓝牙开关",
+		"value": {}
+	}],
+	"battery": [{
+		"name": "BTSwitch",
+		"displayName": "蓝牙开关",
+		"value": {}
+	}]
+}

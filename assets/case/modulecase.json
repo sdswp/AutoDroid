@@ -1,0 +1,57 @@
+[{
+	"name": "audio",
+	"displayName": "aua",
+	"desc": "",
+	"createTime": "",
+	"testCaseList": [{
+		"name": "BatteryRecord",
+		"displayName": "AudioTemp",
+		"uses": "",
+		"count": "10",
+		"value": {
+			"edt_gpsswitchTimes": "10",
+			"edt_gpsstatusTime": "10",
+			"btn_gpsstart": "true",
+			"btn_gpscancel": "false"
+		}
+	}, {
+		"name": "BatteryRecord2",
+		"displayName": "AudioTemp2222",
+		"uses": "",
+		"count": "10",
+		"value": {
+			"edt_gpsswitchTimes": "10",
+			"edt_gpsstatusTime": "10",
+			"btn_gpsstart": "true",
+			"btn_gpscancel": "false"
+		}
+	}]
+}, {
+	"name": "battery",
+	"displayName": "batt",
+	"desc": "",
+	"createTime": "",
+	"testCaseList": [{
+		"name": "BatteryRecord",
+		"displayName": "batterybattery",
+		"uses": "",
+		"count": "10",
+		"value": {
+			"edt_gpsswitchTimes": "10",
+			"edt_gpsstatusTime": "10",
+			"btn_gpsstart": "true",
+			"btn_gpscancel": "false"
+		}
+	}, {
+		"name": "BatteryRecord2",
+		"displayName": "AudioTemp",
+		"uses": "",
+		"count": "10",
+		"value": {
+			"edt_gpsswitchTimes": "10",
+			"edt_gpsstatusTime": "10",
+			"btn_gpsstart": "true",
+			"btn_gpscancel": "false"
+		}
+	}]
+}]

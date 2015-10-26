@@ -1,0 +1,20 @@
+[{"name": "AutoCall",
+	"displayName": "拨打电话",
+	"count":"10",
+	"value": {
+		"edt_callnumber": "",
+		"edt_callTimes": "10",
+		"edt_internalTime": "5",
+		"btn_callstart": "true"
+		"btn_callcancel": "false"
+	}
+},{"name": "AutoCallAnswer",
+	"displayName": "接听电话",
+	"count":"10",
+	"value": {
+		"edt_answernumnber": "",
+		"edt_hooktime": "10",
+		"btn_waitstart": "true",
+		"btn_waitcancel": "true"
+	}
+}]

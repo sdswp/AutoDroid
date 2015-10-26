@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<ListItems>
+    <!-- name是Activity名，区分大小写 -->
+    <item name="CustomTaskList" text="当前自定义测试计划" tab="home" icon="icon_share" />
+    <item name="PublicTaskList" text="公共测试计划" tab="home" icon="icon_data" />
+    <item name="ReportPlans" text="计划任务测试报告" tab="home" icon="icon_show" />
+    <item name="ReportTasks" text="单任务测试报告" tab="home" icon="icon_data" />
+    
+    <item name="StabilityTest" text="长时间稳定性测试" tab="stability" icon="icon_longtime" />
+    <item name="StressTest" text="压力测试" tab="stability" icon="icon_stress" />
+    <!-- <item name="ApplicationLaunch" text="第三方应用启动测试" tab="stability" icon="icon_doit" />-->
+    <!-- <item name="BatteryTest" text="电池测试" tab="stability" icon="icon_battery" />-->
+    
+    <item name="GPSMain" text="GPS" category="gps" tab="performance" icon="cat_gps" />
+    <item name="BTMain" text="蓝牙" category="bluetooth" tab="performance" icon="cat_bluetooth" />
+    <item name="WifiMain" text="WIFI" category="wifi" tab="performance" icon="cat_wifi" />
+    <item name="TelphoneMain" text="电话" category="telphone" tab="performance" icon="cat_telphone" />
+    <item name="MMSMain" text="短信" category="mms" tab="performance" icon="cat_mms" />
+    <item name="MobileNetworkMain" text="移动网络" category="mobile" tab="performance" icon="cat_mobile" />
+    <item name="MediaMain" text="多媒体" category="media" tab="performance" icon="cat_media" />
+    <item name="CameraMain" text="相机" category="camera" tab="performance" icon="cat_camera" />
+    <item name="StorageMain" text="存储" category="storage" tab="performance" icon="cat_storage" />
+    <item name="FrameworkMain" text="Framework" category="framework" tab="performance" icon="cat_framework" />
+    <!-- <item name="TouchScreenMain" text="触摸屏" category="touchscreen" tab="performance" icon="cat_touchscreen" /> -->
+    <item name="BatteryMain" text="电池" category="battery" tab="performance" icon="cat_battery" />
+    
+    <item name="PkMode" text="PK模式" tab="reference" icon="icon_buy" />
+    <item name="PlaceMode" text="排位模式" tab="reference" icon="icon_place" />
+    <item name="SearchMode" text="查询模式" tab="reference" icon="icon_search" />
+    
+</ListItems>

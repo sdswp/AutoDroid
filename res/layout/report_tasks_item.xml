@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="5dip"
+    android:paddingTop="5dip" >
+
+    <LinearLayout
+        android:id="@+id/ddd"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/cb_testcase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:focusable="false"
+            android:padding="0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ccc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ddd"
+        android:orientation="vertical"
+        android:paddingRight="20dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txt_taskname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:textColor="@color/lvGray"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dip"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_params"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray1" />
+
+        <TextView
+            android:id="@+id/txt_datetime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray1" />
+
+        <TextView
+            android:id="@+id/txt_stCount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray3" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="20dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/mm_submenu" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutOutside" >
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/titlebar_rbtn" />
+
+    <LinearLayout
+        android:id="@+id/ln_manage"
+        style="@style/useDesc"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_upload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="上传" />
+
+        <Button
+            android:id="@+id/btn_delReport"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="删除" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln_desc"
+        style="@style/useDesc" >
+
+        <TextView
+            android:id="@+id/txt_planTips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test_report" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_report"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@drawable/line_shadow"
+        android:dividerHeight="2dip" >
+    </ListView>
+
+</LinearLayout>

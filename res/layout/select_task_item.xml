@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListItemOutside"
+    android:padding="10dip" >
+
+    <TextView
+        android:id="@+id/txt_taskitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/lvGray" />
+
+    <TextView
+        android:id="@+id/txt_tasknum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/lvGray" />
+
+</RelativeLayout>

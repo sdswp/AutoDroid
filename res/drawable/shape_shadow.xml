@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- layout background -->
+    <item>
+        <!-- show rectangle area -->
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="90"
+                android:startColor="#FFFFFF"
+                android:centerColor="#000000"
+                android:endColor="#FFFFFF"/>
+        </shape>
+    </item>
+    <!-- layout foreground -->
+    <item
+        android:bottom="10px"
+        android:top="0px">
+        <!-- show rectangle area -->
+        <shape android:shape="rectangle" >
+      <gradient  
+         android:startColor="#232d50" 
+         android:endColor="#2d375f" 
+         android:angle="90"/>  
+        </shape>
+    </item>
+</layer-list>

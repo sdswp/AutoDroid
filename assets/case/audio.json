@@ -1,0 +1,10 @@
+[{"name": "BatteryRecord",
+	"displayName": "AudioTemp",
+	"count":"10",
+	"value": {
+		"edt_gpsswitchTimes": "10",
+		"edt_gpsstatusTime": "10",
+		"btn_gpsstart": "true",
+		"btn_gpscancel": "false"
+	}
+}]

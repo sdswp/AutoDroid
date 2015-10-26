@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutOutside" >
+    
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/titlebar" />
+
+    <RelativeLayout
+        android:id="@+id/rl_sys1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/preference_item"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:visibility="gone" >
+
+        <CheckBox
+            android:id="@+id/cb_sys1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:focusable="false"
+            android:paddingLeft="40dip"
+            android:text="电池充放电异常提醒"
+            android:textColor="#333333" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_sys2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/preference_item"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:visibility="gone" >
+
+        <CheckBox
+            android:id="@+id/cb_sys2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:focusable="false"
+            android:paddingLeft="40dip"
+            android:text="异常关机、重启提醒"
+            android:textColor="#333333" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_sys3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/preference_item"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:visibility="gone" >
+
+        <CheckBox
+            android:id="@+id/cb_sys3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:focusable="false"
+            android:paddingLeft="40dip"
+            android:text="子模块异常提醒"
+            android:textColor="#333333" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_sys4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/preference_last_item"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:visibility="gone" >
+
+        <CheckBox
+            android:id="@+id/cb_sys4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:focusable="false"
+            android:paddingLeft="40dip"
+            android:text="通话异常提醒"
+            android:textColor="#333333" />
+    </RelativeLayout>
+
+</LinearLayout>
